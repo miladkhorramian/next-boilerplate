@@ -1,7 +1,7 @@
-import { fontFamily as ff } from "tailwindcss/defaultTheme";
+import { fontFamily as initiater } from "tailwindcss/defaultTheme";
 
 const fontFamily = {
-  "iran-sans-x": ["var(--font-iran-sans-x)", ...ff.sans],
+  "iran-sans-x": ["var(--font-iran-sans-x)", ...initiater.sans],
 };
 
 export default fontFamily;
