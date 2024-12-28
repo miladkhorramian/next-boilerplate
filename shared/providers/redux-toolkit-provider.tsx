@@ -1,5 +1,6 @@
 import React from "react";
-import { store } from "@/configs/store";
+import { store } from "@/lib/configs/store";
+
 import { Provider } from "react-redux";
 
 const ReduxToolkitProvider = ({ children }: { children: React.ReactNode }) => {

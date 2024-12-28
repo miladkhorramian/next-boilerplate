@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"; // Example of Shadcn UI component
+import { Button } from "@/shared/ui/button"; // Example of Shadcn UI component
 import Link from "next/link";
 
 export default function HomePage() {
